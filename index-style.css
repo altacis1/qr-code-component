@@ -22,10 +22,13 @@
     5. Improve text rendering
   */
   body {
-    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit", sans-serif;
+    min-height:100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
   }
   /*
     6. Improve media defaults
@@ -58,26 +61,25 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    margin: auto;
-    margin-top: 4%;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
     text-align: center;
+    padding: 15px;
   }
   .image1{
     width: 100%;
-    padding: 15px;
+    
     border-radius: 30px;
   }
   .text-container{
     padding: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   .H-text{
     font-weight: 700;
   }
   .C-text{
-    margin-top: 15px;
-    margin-bottom: 15px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
   }
